@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>DB</OriginalElement>
+  <nodes>
+    <node x="732.1699468949506" y="3058.6605190510163">DB.SQLStaffTimetable</node>
+    <node x="68.53363135469684" y="3244.240797652126">DB.SQLAdmin</node>
+    <node x="1708.207829851294" y="2422.8003877315005">DB.ISQLOrder</node>
+    <node x="428.3976688807835" y="2747.997072839135">DB.ISQLBeautyService</node>
+    <node x="219.54376899672758" y="2258.456233556473">DB.AbstractFactory</node>
+    <node x="841.3132202185034" y="2375.1578185495155">DB.ConnectionDB</node>
+    <node x="1232.6751503913495" y="2591.3018429246827">DB.ISQLAuthorization</node>
+    <node x="126.44161622105128" y="2874.4305098313434">DB.ISQLAdmin</node>
+    <node x="885.8029209390991" y="2863.988944910563">DB.ISQLStaffTimetable</node>
+    <node x="942.0596932759681" y="3415.646761505796">DB.SQLAuthorization</node>
+    <node x="-150.14583738249186" y="2270.731021756435">DB.SQLFactory</node>
+    <node x="1763.3578698042388" y="2887.5471284471555">DB.Const</node>
+    <node x="1651.426144929037" y="3293.694140990479">DB.SQLOrder</node>
+    <node x="481.4325547664621" y="3342.663838816276">DB.SQLBeautyService</node>
+    <node x="1250.1727534377249" y="3030.851819989776">DB.SQLEmployee</node>
+    <node x="80.17130368156867" y="2565.238079428086">DB.ISQLConsumer</node>
+    <node x="384.56569799991064" y="2967.3615788108486">DB.SQLConsumer</node>
+    <node x="1363.8295397698537" y="2715.1651825128984">DB.ISQLEmployee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DB.SQLOrder" target="DB.ConnectionDB" relationship="TO_ONE">
+      <point x="-152.0001449290371" y="-1.4099047893978423E-4" />
+      <point x="1203.56" y="3495.194" />
+      <point x="1203.56" y="3309.0" />
+      <point x="1188.0" y="3309.0" />
+      <point x="1188.0" y="3041.161" />
+      <point x="868.303" y="3041.161" />
+      <point x="-138.01022021850338" y="213.50018145048443" />
+    </edge>
+    <edge source="DB.SQLStaffTimetable" target="DB.ISQLStaffTimetable" relationship="REALIZATION">
+      <point x="153.63297404414845" y="-105.5" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="DB.SQLAuthorization" target="DB.ISQLAuthorization" relationship="REALIZATION">
+      <point x="0.0" y="81.5" />
+      <point x="1064.0596932759681" y="3714.194140990479" />
+      <point x="2029.7078298512943" y="3714.194140990479" />
+      <point x="2029.7078298512943" y="2357.6578185495155" />
+      <point x="1342.6751503913495" y="2357.6578185495155" />
+      <point x="0.0" y="-31.5" />
+    </edge>
+    <edge source="DB.SQLBeautyService" target="DB.ConnectionDB" relationship="TO_ONE">
+      <point x="4.452335379028227E-4" y="-141.49983881627577" />
+      <point x="644.433" y="3309.0" />
+      <point x="1188.0" y="3309.0" />
+      <point x="1188.0" y="3041.161" />
+      <point x="868.303" y="3041.161" />
+      <point x="-138.01022021850338" y="213.50018145048443" />
+    </edge>
+    <edge source="DB.SQLOrder" target="DB.ISQLOrder" relationship="REALIZATION">
+      <point x="-57.56827512479822" y="-201.5" />
+      <point x="-114.34996004705522" y="115.5" />
+    </edge>
+    <edge source="DB.SQLEmployee" target="DB.ConnectionDB" relationship="TO_ONE">
+      <point x="-168.99975343772485" y="1.8001022408498102E-4" />
+      <point x="1188.0" y="3208.352" />
+      <point x="1188.0" y="3041.161" />
+      <point x="868.303" y="3041.161" />
+      <point x="-138.01022021850338" y="213.50018145048443" />
+    </edge>
+    <edge source="DB.SQLAdmin" target="DB.ConnectionDB" relationship="TO_ONE">
+      <point x="115.50036864530315" y="-58.87879765212574" />
+      <point x="359.671" y="3266.862" />
+      <point x="359.671" y="3309.0" />
+      <point x="1188.0" y="3309.0" />
+      <point x="1188.0" y="3041.161" />
+      <point x="868.303" y="3041.161" />
+      <point x="-138.01022021850338" y="213.50018145048443" />
+    </edge>
+    <edge source="DB.SQLAuthorization" target="DB.ConnectionDB" relationship="TO_ONE">
+      <point x="3.0672403181597474E-4" y="-81.49976150579596" />
+      <point x="1064.06" y="3309.0" />
+      <point x="1188.0" y="3309.0" />
+      <point x="1188.0" y="3041.161" />
+      <point x="868.303" y="3041.161" />
+      <point x="-138.01022021850338" y="213.50018145048443" />
+    </edge>
+    <edge source="DB.SQLStaffTimetable" target="DB.ConnectionDB" relationship="TO_ONE">
+      <point x="208.50005310504946" y="4.809489837498404E-4" />
+      <point x="1188.0" y="3164.161" />
+      <point x="1188.0" y="3041.161" />
+      <point x="868.303" y="3041.161" />
+      <point x="-138.01022021850338" y="213.50018145048443" />
+    </edge>
+    <edge source="DB.SQLEmployee" target="DB.ISQLEmployee" relationship="REALIZATION">
+      <point x="113.65678633212883" y="-177.5" />
+      <point x="0.0" y="127.5" />
+    </edge>
+    <edge source="DB.SQLBeautyService" target="DB.ISQLBeautyService" relationship="REALIZATION">
+      <point x="44.63314323344855" y="-141.5" />
+      <point x="97.66802911912714" y="79.5" />
+    </edge>
+    <edge source="DB.SQLConsumer" target="DB.ISQLConsumer" relationship="REALIZATION">
+      <point x="-117.16802911912714" y="-153.5" />
+      <point x="410.8976688807835" y="2668.738079428086" />
+      <point x="143.50000000000003" y="0.0" />
+    </edge>
+    <edge source="DB.SQLFactory" target="DB.AbstractFactory" relationship="GENERALIZATION">
+      <point x="144.0" y="-12.274788199962131" />
+      <point x="-144.0" y="0.0" />
+    </edge>
+    <edge source="DB.SQLAdmin" target="DB.ISQLAdmin" relationship="REALIZATION">
+      <point x="41.40798486635444" y="-81.5" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="DB.SQLConsumer" target="DB.ConnectionDB" relationship="TO_ONE">
+      <point x="3.020000893911856E-4" y="153.50042118915144" />
+      <point x="528.066" y="3309.0" />
+      <point x="1188.0" y="3309.0" />
+      <point x="1188.0" y="3041.161" />
+      <point x="868.303" y="3041.161" />
+      <point x="-138.01022021850338" y="213.50018145048443" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.4888111888111888" showDependencies="true" x="949.5" y="2996.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
